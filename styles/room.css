@@ -1,17 +1,13 @@
+.content {
+  max-width: min(112rem, 90%);
+}
+
 #room header {
   width: 100%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-#room header a img {
-  width: 29.79rem;
-  height: 3.5rem;
-
-  display: inline-block;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 #room header .buttons {
@@ -19,7 +15,7 @@
 }
 
 #room header .buttons .button:nth-child(1) {
-  margin-right: 0.8rem;
+  margin-right: .8rem;
 
   padding: 1.3rem 1.6rem;
 }
@@ -38,4 +34,44 @@
   width: 1.8rem;
   height: 1.8rem;
   margin-right: 1rem;
+}
+
+/*Question-form*/
+
+#question-form h2 {
+  
+  font: 700 2.8rem 'Poppins',sans-serif;
+  color: var(--black);
+  margin-bottom: 2.4rem;
+  line-height: 4.2rem;
+}
+
+#question-form form {
+  padding: 1.6rem;
+  border: .2rem solid var(--grey-blue);
+  border-radius: 0 .8rem .8rem .8rem;
+}
+
+#question-form form textarea {
+  resize: none;
+  background:transparent;
+  outline: none;
+
+  width: 100%;
+}
+
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#question-form form footer div {
+  color: var(--icons-details);
+  font: 400 1.4rem/2.2rem 'Poppins',sans-serif;
 }

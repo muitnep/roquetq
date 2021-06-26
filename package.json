@@ -1,0 +1,29 @@
+{
+  "name": "roquetq",
+  "version": "1.0.0",
+  "description": "Projeto de gerencimento de perguntas de forma anônima dierionada ao dono da página pelos usuários.Projeto da NLW#6 trilha Discover",
+  "main": "src/server.js",
+    
+  "scripts": {
+    "start": "nodemon . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muitnep/roquetq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muitnep/roquetq/issues"
+  },  
+  "homepage": "https://github.com/muitnep/roquetq#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
